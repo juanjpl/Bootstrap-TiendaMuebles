@@ -1,0 +1,128 @@
+:root {
+    --fuentePrimaria: 'Playfair Display', serif;
+    --fuenteSecundaria: 'Raleway', sans-serif;
+    --primario: #037bc0;
+    --secundario: #8cbc00;
+}
+
+
+/*****************************************************************
+
+                    Globales
+
+*****************************************************************/
+
+.imagen-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg-primary {
+    background-color: #037bc0!important;
+}
+
+
+/*****************************************************************
+
+                    Header
+
+*****************************************************************/
+
+.titulo {
+    font-family: 'Playfair Display', serif;
+}
+
+.titulo span {
+    color: #037bc0;
+}
+
+.nav-link {
+    color: black!important;
+}
+
+.navbar {
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+/*****************************************************************
+
+                    Imagen Principal
+
+*****************************************************************/
+
+.imagen-principal {
+    background-image: url(../img/principal.jpg);
+    height: 35rem;
+}
+
+
+/*****************************************************************
+
+                    Categorias
+
+*****************************************************************/
+
+.categorias a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    color: black!important;
+}
+
+.categorias a:hover {
+    text-decoration: none;
+}
+
+
+/*****************************************************************
+
+                    Sobre Nosotros
+
+*****************************************************************/
+
+.sobre-nosotros,
+.imagen-nosotros {
+    height: 35rem;
+}
+
+.imagen-nosotros {
+    background-image: url(../img/nosotros.jpg);
+}
+
+
+/*****************************************************************
+
+                    Nuestros Productos
+
+*****************************************************************/
+
+.info-producto .precio {
+    font-size: 1.8rem;
+}
+
+.info-producto .btn-success {
+    background-color: #8cbc00!important;
+    border-color: #8cbc00!important;
+}
+
+.info-producto .btn-success:hover {
+    background-color: #7aa102!important;
+    border-color: #7aa102!important;
+}
+
+
+/*****************************************************************
+
+                    Footer
+
+*****************************************************************/
+
+.footer {
+    border-top: 1px solid #e1e1e1;
+}
+
+.footer-menu .nav-link {
+    color: #666666!important;
+}
